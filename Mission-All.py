@@ -126,8 +126,7 @@ def exam_numbers():
 
 
 def check_pass():
-    # the list below is an example
-    tupleList= [('username', 'pass.123456')]
+    tupleList= list(input("Enter a tuple list of users and password"))
 
     for i in tupleList:
         password= i[1]
